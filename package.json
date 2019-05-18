@@ -1,0 +1,14 @@
+{
+  "name": "generator-trevor",
+  "version": "0.0.1",
+  "description": "",
+  "files": [
+    "generators"
+  ],
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "dependencies": {
+    "yeoman-generator": "^4.0.0"
+  }
+}

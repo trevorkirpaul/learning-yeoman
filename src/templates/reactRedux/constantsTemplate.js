@@ -8,8 +8,6 @@ const <%= ACTION %> = {
 <% }); %>
 export {
 <% ACTIONS.forEach (function(ACTION) { %>
-  start<%= ACTION %>,
-  succeed<%= ACTION %>,
-  fail<%= ACTION %>,
+  <%= ACTION %>,
 <% }); %>
 }

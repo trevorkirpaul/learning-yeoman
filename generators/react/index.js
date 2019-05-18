@@ -109,8 +109,10 @@ module.exports = class extends Generator {
    * is ran. All other actions will only be invoked when the associated flag is used.
    */
   main() {
-    if(this.options.createAction) {
-      this._private_actionPrompt()
+    if(this.options.createActions) {
+      return this._private_actionPrompt()
     }
+
+    return this.log('ERROR: Please select an option')
   }
 }

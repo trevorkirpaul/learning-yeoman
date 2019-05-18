@@ -11,6 +11,8 @@ My goal is to use Yeoman to create a CLI tool which scaffolds out a CRA that has
 > The example should contain a majority of the features which a generator can provide and should have detailed comments
 
 - [ ] create generator which scaffolds out a CRA
+  - [x] scaffolding for constants and actions
+  - [x] created template file
 
 > This will not be the final product. That will be its own repo which will also be published to npm as a package
 

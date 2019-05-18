@@ -3,12 +3,15 @@
   "version": "0.0.1",
   "description": "",
   "files": [
-    "generators"
+    "generators",
+    "another"
   ],
   "keywords": [
     "yeoman-generator"
   ],
   "dependencies": {
+    "ast-query": "^2.0.0",
+    "esprima": "^4.0.1",
     "yeoman-generator": "^4.0.0"
   }
 }
